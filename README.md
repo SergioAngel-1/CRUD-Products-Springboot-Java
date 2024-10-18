@@ -14,7 +14,7 @@ Asegúrate de tener los siguientes requisitos instalados en tu sistema antes de 
 
 1. **Clonar el repositorio** (si no lo has hecho ya):
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone git@github.com:SergioAngel-1/CRUD-Products-Springboot-Java.git
    cd crudspring
    ```
 
