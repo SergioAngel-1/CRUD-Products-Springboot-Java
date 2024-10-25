@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: city-management
+    name: product-manager
     env: docker
     buildCommand: "./mvnw clean package -DskipTests"
     startCommand: "java -jar target/*.jar"
@@ -9,5 +9,3 @@ services:
         value: prod
       - key: SERVER_PORT
         value: "8080"
-      - key: JAVA_OPTS
-        value: "-XX:+UseContainerSupport -XX:MaxRAMPercentage=75"
